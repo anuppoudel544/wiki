@@ -23,7 +23,7 @@
                   v-toolbar-title.subtitle-1 {{$t('admin:navigation.mode')}}
                 v-list(nav, two-line)
                   v-list-item-group(v-model='config.mode', mandatory, :color='$vuetify.theme.dark ? `teal lighten-3` : `teal`')
-                  v-list-item(value='NEWTREE')
+                    v-list-item(value='NEWTREE')
                       v-list-item-avatar
                         img(src='/_assets/svg/icon-tree-structure-dotted.svg', alt='Site Tree')
                       v-list-item-content
